@@ -1,0 +1,95 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+# 환경 변수 파일 (API 키 포함)
+.env
+.env.local
+.env.production
+
+# 데이터 파일들
+data/pdfs/*.pdf
+data/markdown/*.md
+data/chroma_db/
+*.sqlite3
+
+# 임시 파일들
+.tmp/
+temp/
+tmp/
+
+# 로그 파일들
+*.log
+logs/
+
+# uv 관련
+.uv/
+uv.lock
+
+# 테스트 관련
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# 문서 생성
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 기타
+*.bak
+*.orig
+*.rej

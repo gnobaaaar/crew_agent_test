@@ -1,0 +1,28 @@
+# CrewAI RAG 시스템 설정
+
+# API 설정
+api:
+  gemini_api_key: ${GEMINI_API_KEY}  # 환경변수에서 로드
+  model_name: "gemini-2.0-flash"
+
+# 데이터베이스 설정
+database:
+  chroma_db_path: "./data/chroma_db"
+  collection_name: "rag_documents"
+  embedding_model: "models/gemini-embedding-001"  # Gemini 임베딩 모델
+
+# 파일 경로 설정
+paths:
+  pdf_input: "./data/pdfs"
+  markdown_output: "./data/markdown"
+  
+# 처리 설정
+processing:
+  chunk_size: 1000
+  chunk_overlap: 200
+  max_tokens: 4000
+
+# 로깅 설정
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
